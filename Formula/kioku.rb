@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-# kioku v1.0.1 — rendered by scripts/render-homebrew-formula.sh from
+# kioku v1.0.2 — rendered by scripts/render-homebrew-formula.sh from
 # packaging/homebrew/kioku.rb.tmpl in misorafa/kioku (SPEC-M3.3 §1). Do not edit here:
 # every release overwrites this file.
 class Kioku < Formula
@@ -11,23 +11,23 @@ class Kioku < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/misorafa/kioku/releases/download/v1.0.1/kioku-v1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "31c5ef56961803e295456f5a28c6d07723c560178060fcbe6f9e21bddb967dda"
+      url "https://github.com/misorafa/kioku/releases/download/v1.0.2/kioku-v1.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "ea10c88ccdf4421e3dae4bffca0bc50885591b53b94d253fee3d0ac1e9b276c0"
     end
     on_intel do
-      url "https://github.com/misorafa/kioku/releases/download/v1.0.1/kioku-v1.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "91756852a6960d9266e674b2514caf9ce6bf36ca73ddf239ee8344a4d0e3f294"
+      url "https://github.com/misorafa/kioku/releases/download/v1.0.2/kioku-v1.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "d5afe16f42e0ae54ffcd84e896cc11693d5f83aefa79c16ca1ef26c5c652b3e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/misorafa/kioku/releases/download/v1.0.1/kioku-v1.0.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "bd007878f64118bbeaca23ffb13876e43935199bb6f2339fc8c7e5cce932da37"
+      url "https://github.com/misorafa/kioku/releases/download/v1.0.2/kioku-v1.0.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "adba4b00be7932e1c1044c9b5024a8f83b7cf73cf8308389fe49ea6741f8fb54"
     end
     on_intel do
-      url "https://github.com/misorafa/kioku/releases/download/v1.0.1/kioku-v1.0.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1389f099d632ba8e82074933f36b3c0cbd8b96a451aa173b816e95a542c74a16"
+      url "https://github.com/misorafa/kioku/releases/download/v1.0.2/kioku-v1.0.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f875c13173d1da530316bfac1f84a37d18b653a7a8a45c907abf8f901b012bb8"
     end
   end
 
